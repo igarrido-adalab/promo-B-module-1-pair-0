@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {  /* <html> */
+  font-family: "Roboto", "Times New Roman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.title-2 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-size: 32px;
+}
+
+.header {
+  position: sticky; /* fixed */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  background-color: darkcyan;
+  color: white;
+  padding: 10px 30px;
+}
+
+
+.container {
+  width: 50%;
+  /* margin-block: 100px; */
+  margin-block: 10px;
+  margin-inline: auto;
+  border: solid 5px red;
+
+  position: relative;
+}
+
+.text {
+  border: solid 5px blue;
+  padding: 10px;
+}
+
+.different {
+  width: 30px;
+  position: absolute;
+  /* top,bottom,left,right */
+
+  top: 0px;
+  right: 0px;
+}
+
+.info {
+  width: 60%;
+  margin-inline: auto;
+}
+
+.photo-container {
+  position: relative;
+  border: solid 1px red;
+}
+
+.picture {
+  width: 300px;
+  background-color: lightcoral;
+  border: solid 5px coral;
+  border-radius: 5px;
+}
+
+.caption {
+  position: absolute;
+  
+  bottom: 70px;
+  right: 10px;
+
+  background-color: white;
+  border: solid 1px black;
+  padding: 5px;
+  text-align: center;
+}
+
+
+
+
+
+.photo-container2 {
+  position: relative;
+  width: 300px;
+
+  border: solid 5px coral;
+  border-radius: 5px;
+}
+
+.picture2 {
+  width: 100%;
+}
+
+.caption2 {
+  position: absolute;
+
+  bottom: 70px;
+  
+  right: 30px;
+
+  background-color: white;
+  border: solid 1px black;
+  padding: 5px;
+  text-align: center;
+}
+
+
+.imagecat {
+  width: 300px;
+  /* transform: rotate(180deg); */
+  /* transform: translate(100px, 100px) rotate(45deg); */
+  transform: scale(0.25);
+}
+
+.btn {
+  font-size: 24px;
+  padding: 10px 5px;
+}
+
+.btn:hover {
+  background-color: lightcoral;
+  transform: scale(1.2);
+}
